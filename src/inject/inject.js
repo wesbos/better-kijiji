@@ -7,8 +7,8 @@ if(x.isFunction(n))while(r=o[i++])"+"===r[0]?(r=r.slice(1)||"*",(e[r]=e[r]||[]).
 
 
 $(function() {
-  $('img.thumbnail').each(function(i,el) {
-    var src = this.src.replace('_14','_20');
+  $('.image img').each(function(i,el) {
+    var src = this.src.replace('_2','_20');
     $(this).attr('src',src).css('width','auto');
   });
 });
